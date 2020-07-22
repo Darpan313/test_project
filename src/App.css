@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slider{
+  max-width: 150%;
+  max-height: 630px;
+  outline-width: 5%;
+  outline-color: black;
+  background-color:#F0F0F0
+}
+.sliderImg{
+  background-color: "#F0F0F0";
+}
+.card-header{
+  background:rgba(0,0,0,.15);
+}
+
+.card-body{
+  background:rgba(0,0,0,.05);
+}
+.anchor-card-text{
+  color: black;
+}
+
+.m-all-20{
+  margin: 20px;
+}
+
+.m-l-20{
+  margin-left: 20px;
+}
+
+.m-l-10{
+  margin-left: 10px;
+}
+
+.m-t-20{
+  margin-top: 20px;
+}
+
+.head{
+  text-align:left;
+  margin-left: 7%;
+}
+.text{
+  text-align: left;
+  margin-left: 7%;
+}
+.link{
+  margin-left:40%;
+}
+
+.btnLink{
+  margin-left: 72%;
+}
+.textfields {
+  outline: 0;
+  background: #dcdcdc;
+  border-radius: 20px;
+  border: 1px solid #2d9fd9;
+  border: 0;
+  height:10%;
+  margin: 0 0 3%;
+  padding: 6%;
+  font-size: 100%;
+}
+
+.supportFormPanel {
+  float: right;
+  position: relative;
+  background: #f0f0f0;
+  width: 88%;
+  height: 90%;
+  margin: 2% 6% 6% 0%;
+  padding: 7%;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.supportButton{
+  margin-top:5%;
+  width:40%;
+  height:20%
+}
+
+.certificateCompletion{
+  margin-top:2%;
+  margin-left:3%;
+  margin-right:3%
+}
+.courseTitle{
+  margin-top:25px
+}
+.certificateImage{
+  height:40%;
+  width:40%
+}
+.certificateText{
+  margin-left:4%;
+  margin-right:4%
+}
+.message{
+  margin-top:5%
+}
+.buttonsDiv{
+  width:100%;
+  display:inline-block
+}
+.certificateButtons{
+  height:60%;
+  width:75%;
+  margin-left: 10%;
+  margin-top: 30%;
+}
+
+.pad{
+  margin-left: 20%;
+}
